@@ -1,4 +1,4 @@
-# Exercise 3
+# Exercise 4
 
 We start by running start_exercise.sh.
 
