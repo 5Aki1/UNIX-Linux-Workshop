@@ -9,4 +9,4 @@ I want you to do this twice.
 - using grep
 - being creative
 
-Then, take all empty files and move them into Recycling bin and delete the Recycling bin folder.
+Then, take all empty files and move them into Recycling bin and delete the Recycling_bin folder.

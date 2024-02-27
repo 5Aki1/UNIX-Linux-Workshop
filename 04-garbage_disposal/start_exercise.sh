@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p {TO_BE_FILTERED,"Recycling bin"}
+mkdir -p {TO_BE_FILTERED,"Recycling_bin"}
 
 # Generate a random number between 1 and 100
 random_num=$(( RANDOM % 100 + 1 ))

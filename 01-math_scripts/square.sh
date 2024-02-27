@@ -1,13 +1,15 @@
 #!/bin/bash
 
 # Check if input argument is provided
-if [ $# -ne 1 ]; then
-    echo ">:( (Error: Please provide a single number as an argument)" >&2
+if [ $# -eq 0 ]; then
+    # Read input from stdin
+    read num
+elif [ $# -eq 1 ]; then
+    num=$1
+else
+    echo ">:( (Error: Please provide only one number as an argument)" >&2
     exit 1
 fi
-
-# Extract the number from the argument
-num=$1
 
 # Check if input is a number
 if ! [[ "$num" =~ ^[0-9]+$ ]]; then
@@ -20,4 +22,3 @@ square=$((num * num))
 
 # Output square to stdout
 echo "$square"
-
