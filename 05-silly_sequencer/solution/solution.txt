@@ -1,0 +1,8 @@
+> Output both stdout and stderr into different files
+./sequencer.sh > sequencer_output.txt 2> sequencer_error.txt
+
+> Get number of errors
+wc -l sequencer_error
+
+> Remove errors from output
+grep -v 'N' sequencer_output.txt > sequencer_output_filtered.txt

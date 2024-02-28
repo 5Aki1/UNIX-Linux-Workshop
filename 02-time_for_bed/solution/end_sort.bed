@@ -1,0 +1,15 @@
+> sort -k1,1 -k2,2n
+chr1	10	1000
+chr10	20	100
+chr2	30	500
+chr3	1	1000
+chr3	1	400
+chrX	30	200		
+
+> sort -k1,1 -k2,2n -k3,3n
+chr1	10	1000
+chr10	20	100
+chr2	30	500
+chr3	1	400
+chr3	1	1000
+chrX	30	200		
